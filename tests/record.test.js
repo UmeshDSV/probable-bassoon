@@ -15,6 +15,7 @@ test('Should fetch record successfully', async () => {
         })
         .expect(200)
     expect(response.body.msg).toBe("Success")
+    expect(response.body.code).toBe(0)
 })
 
 test('Should throw invalid arguments exception', async () => {
@@ -27,6 +28,7 @@ test('Should throw invalid arguments exception', async () => {
         })
         .expect(200)
     expect(response.body.msg).toBe("Invalid Arguments")
+    expect(response.body.code).toBe(9)
 })
 
 test('Should throw no record found exception', async () => {
@@ -40,4 +42,5 @@ test('Should throw no record found exception', async () => {
         })
         .expect(200)
     expect(response.body.msg).toBe("No Record Found")
+    expect(response.body.code).toBe(1)
 })
