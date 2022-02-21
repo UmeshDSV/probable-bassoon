@@ -11,7 +11,7 @@ Run 'npm test' to run the test suite \
 
 1. To get the response - \
 Type of the request - POST \
-Request URL - http://localhost:3000/records \
+Request URL - http://localhost:3000/records  (or) https://umesh-getir-assignment.herokuapp.com/records
 Request Body - {\
         "startDate": "2016-01-26", \
         "endDate": "2018-02-02", \
