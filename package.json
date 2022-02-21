@@ -1,0 +1,36 @@
+{
+  "name": "probable-bassoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmeshDSV/probable-bassoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmeshDSV/probable-bassoon/issues"
+  },
+  "homepage": "https://github.com/UmeshDSV/probable-bassoon#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
