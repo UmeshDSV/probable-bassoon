@@ -26,10 +26,10 @@
     "express": "^4.17.2",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "mongoose": "^6.2.1"
+    "mongoose": "^6.2.1",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
     "jest": "^27.5.1",
     "supertest": "^6.2.2"
   }
